@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHOTO FOX | High-Clarity Anonymous Hosting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="fox-header">
+        <div class="logo-area">
+            <h1>PHOTO <span class="accent">FOX</span></h1>
+            <p class="sub-text">Sub-Cortex Clarity Vector Engine</p>
+        </div>
+        
+        <div class="news-ticker-container">
+            <span class="ticker-title">Beauty in Titlement:</span>
+            <div class="ticker-wrap">
+                <div class="ticker" id="newsReel">
+                    Syncing visual streams... Streaming global anonymous art... Clarity optimization active...
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <section class="upload-section">
+            <div class="drop-zone" id="dropZone">
+                <div class="drop-zone-content">
+                    <svg class="upload-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M17 8l-5-5-5 5M12 3v12"/></svg>
+                    <p>Transmit Image Anonymously</p>
+                    <span class="file-spec">All formats accepted. No login, no tracking.</span>
+                </div>
+                <input type="file" id="fileInput" accept="image/*" hidden>
+            </div>
+        </section>
+
+        <section class="gallery-section">
+            <div class="gallery-meta">
+                <h2>Live Stream Timeline</h2>
+                <span id="photoCount">0 Photos Rendered</span>
+            </div>
+            <div class="photo-grid" id="photoGrid">
+                </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
